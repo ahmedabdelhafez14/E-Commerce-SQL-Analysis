@@ -1,0 +1,15 @@
+E-Commerce SQL Analysis - final query bundle
+
+All queries use WHERE o.Status = 'Completed'.
+Pending, Cancelled, and Returned orders are excluded.
+
+Product profit = quantity * (unitPrice - unitCost).
+Profit does not include other operating expenses.
+
+Database tables and column names used:
+- customers (CustomerID, CustomerName)
+- orders (OrderID, CustomerID, OrderDate, Status, PaymentMethod)
+- order_items (OrderID, ProductID, quantity, unitPrice)
+- products (ProductID, ProductName, unitCost)
+
+The SQL scripts were run and their outputs reviewed against the project results.
